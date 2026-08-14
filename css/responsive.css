@@ -1,0 +1,379 @@
+/* ============================================================
+   Lifeline Ride Services — Responsive Stylesheet
+   Mobile-First Breakpoints: 480 | 768 | 900 | 1024 | 1280
+   ============================================================ */
+
+/* ── Base Mobile Styles (< 900px) ── */
+
+.nav-menu {
+    position: fixed;
+    top: var(--nav-height);
+    left: 0;
+    right: 0;
+    background: var(--color-white);
+    flex-direction: column;
+    align-items: stretch;
+    padding: var(--spacing-md) var(--spacing-lg) var(--spacing-lg);
+    gap: 0.25rem;
+    border-top: 1px solid var(--color-gray-200);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .12);
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transition: max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 0.3s ease;
+    z-index: 999;
+}
+
+.nav-menu.open {
+    max-height: 600px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.nav-toggle {
+    display: flex;
+}
+
+.nav-link {
+    padding: 0.75rem 1rem;
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+}
+
+.nav-cta {
+    margin-left: 0;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.nav-cta .btn {
+    width: 100%;
+    justify-content: center;
+}
+
+/* Hero mobile */
+.hero {
+    min-height: 100svh;
+}
+
+.hero-title {
+    font-size: clamp(1.75rem, 8vw, 2.5rem);
+}
+
+.hero-subtitle {
+    font-size: 1rem;
+}
+
+.hero-actions {
+    flex-direction: column;
+}
+
+.hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+}
+
+.hero-trust {
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+/* Stats bar mobile */
+.stats-bar .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-sm);
+}
+
+.stat-item:nth-child(2) {
+    border-right: none;
+}
+
+.stat-item:nth-child(3) {
+    border-right: 1px solid var(--color-gray-200);
+}
+
+/* Grids → single column */
+.services-grid,
+.features-grid,
+.values-grid,
+.testimonials-grid,
+.team-grid,
+.steps-grid,
+.mission-vision-grid {
+    grid-template-columns: 1fr;
+}
+
+.steps-grid::before {
+    display: none;
+}
+
+/* Split section */
+.split-section {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+}
+
+.split-image {
+    order: -1;
+    aspect-ratio: 16/9;
+}
+
+/* Areas grid */
+.areas-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* Contact */
+.contact-grid {
+    grid-template-columns: 1fr;
+}
+
+.contact-info-card {
+    position: static;
+}
+
+.form-row {
+    grid-template-columns: 1fr;
+}
+
+/* Footer */
+.footer-grid {
+    grid-template-columns: 1fr;
+}
+
+.footer-bottom {
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    text-align: center;
+}
+
+/* CTA actions */
+.cta-actions {
+    flex-direction: column;
+    align-items: center;
+}
+
+.cta-actions .btn {
+    width: 100%;
+    max-width: 320px;
+    justify-content: center;
+}
+
+/* ── 480px and up ── */
+@media (min-width: 480px) {
+    .hero-actions {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .hero-actions .btn {
+        width: auto;
+    }
+
+    .cta-actions {
+        flex-direction: row;
+    }
+
+    .cta-actions .btn {
+        width: auto;
+    }
+}
+
+/* ── 640px and up ── */
+@media (min-width: 640px) {
+    .areas-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .mission-vision-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stats-bar .container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .stat-item:nth-child(2) {
+        border-right: 1px solid var(--color-gray-200);
+    }
+
+    .stat-item:nth-child(3) {
+        border-right: 1px solid var(--color-gray-200);
+    }
+
+    .hero-trust {
+        flex-direction: row;
+    }
+}
+
+/* ── 768px (Tablet - Keep Mobile Nav) ── */
+@media (min-width: 768px) {
+    /* Keep mobile navigation until 900px */
+
+    /* 2-col grids */
+    .services-grid,
+    .features-grid,
+    .values-grid,
+    .testimonials-grid,
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .steps-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .steps-grid::before {
+        display: block;
+    }
+
+    .split-section {
+        grid-template-columns: 1fr 1fr;
+        gap: var(--spacing-2xl);
+    }
+
+    .split-image {
+        order: 0;
+        aspect-ratio: 4/3;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+    }
+
+    .areas-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ── 900px (Desktop Navigation) ── */
+@media (min-width: 900px) {
+    .nav-toggle {
+        display: none;
+    }
+
+    .nav-menu {
+        position: static;
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        max-height: none;
+        overflow: visible;
+        opacity: 1;
+        pointer-events: auto;
+        border-top: none;
+        box-shadow: none;
+        background: transparent;
+        gap: 0.25rem;
+    }
+
+    .nav-cta {
+        margin-left: 0.5rem;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    .nav-cta .btn {
+        width: auto;
+    }
+}
+
+/* ── 1024px (Desktop) ── */
+@media (min-width: 1024px) {
+
+    .services-grid,
+    .features-grid,
+    .values-grid,
+    .testimonials-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .team-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr 400px;
+    }
+
+    .contact-info-card {
+        position: sticky;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1.4fr 1fr 1fr 1.3fr;
+    }
+}
+
+/* ── 1280px (Wide) ── */
+@media (min-width: 1280px) {
+    .container {
+        padding: 0 var(--spacing-xl);
+    }
+
+    .hero-title {
+        font-size: 3.75rem;
+    }
+
+    .section {
+        padding: var(--spacing-3xl) 0;
+    }
+}
+
+/* ── Print styles ── */
+@media print {
+
+    .navbar,
+    .back-to-top,
+    .nav-toggle {
+        display: none !important;
+    }
+
+    .hero {
+        min-height: auto;
+        padding-top: var(--spacing-xl);
+    }
+
+    body {
+        color: #000;
+    }
+
+    a[href]::after {
+        content: ' (' attr(href) ')';
+        font-size: 0.75em;
+    }
+}
+
+/* ── Service Area Section Responsive ── */
+@media (max-width: 768px) {
+    .service-area-inner {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-xl);
+    }
+
+    .service-area-actions {
+        flex-direction: column;
+    }
+
+    .btn-white,
+    .btn-outline-white {
+        text-align: center;
+        justify-content: center;
+    }
+}

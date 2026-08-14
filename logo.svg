@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Red background square -->
+  <rect width="200" height="200" fill="#CC0000"/>
+  
+  <!-- White shield outline (thick) -->
+  <path d="M100 18 L172 50 L172 108 C172 148 138 178 100 190 C62 178 28 148 28 108 L28 50 Z"
+    fill="#CC0000" stroke="white" stroke-width="10" stroke-linejoin="round"/>
+
+  <!-- Blue heartbeat / ECG line with arrow -->
+  <!-- Flat left, spike up, deep down, up, flat, then arrow up-right -->
+  <polyline 
+    points="30,105 58,105 66,105 74,68 82,130 90,85 98,115 106,105 120,105"
+    fill="none" stroke="#1A6FD4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Arrow line continuing up-right -->
+  <line x1="120" y1="105" x2="162" y2="58" stroke="#1A6FD4" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Dashed road markings on arrow line -->
+  <line x1="122" y1="103" x2="130" y2="94" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5,5"/>
+  <line x1="133" y1="90" x2="141" y2="81" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5,5"/>
+  <line x1="144" y1="77" x2="152" y2="68" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="5,5"/>
+
+  <!-- Arrowhead at top-right -->
+  <polygon points="162,58 148,60 158,72" fill="#1A6FD4"/>
+</svg>
