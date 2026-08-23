@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://lifelinerides.com/sitemap.xml
+
+# Block common bot directories (none for this site)
+# Allow all pages to be crawled for maximum visibility
