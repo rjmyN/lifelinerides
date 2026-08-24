@@ -1,0 +1,117 @@
+================================================================================
+LIFELINE RIDE SERVICES - SEO QUICK START (DO THESE FIRST!)
+================================================================================
+
+Your website is now fully SEO-optimized! The technical part is DONE.
+
+Now you need to do these 4 things to get discovered on Google:
+
+================================================================================
+🔴 STEP 1: GOOGLE SEARCH CONSOLE (15 minutes - Do this TODAY!)
+================================================================================
+
+1. Go to: https://search.google.com/search-console/
+2. Sign in with your Google account
+3. Click "Add Property"
+4. Enter: https://lifelinerides.com
+5. Choose verification method (DNS or HTML file upload)
+6. Once verified, click "Sitemaps" in left menu
+7. Submit: https://lifelinerides.com/sitemap.xml
+8. Go to URL Inspection, enter your homepage, click "Request Indexing"
+
+RESULT: Google will index your site within 24-48 hours!
+
+================================================================================
+🔴 STEP 2: GOOGLE BUSINESS PROFILE (20 minutes - Do this TODAY!)
+================================================================================
+
+1. Go to: https://business.google.com
+2. Click "Manage now" and sign in
+3. Search for "Lifeline Ride Services" - if not found, create new
+4. Fill in:
+   - Business name: Lifeline Ride Services
+   - Category: Transportation Service (or Medical Transportation Service)
+   - Add service area: Louisville, KY and surrounding areas
+   - Phone: (502) 627-0672
+   - Website: https://lifelinerides.com
+   - Description: [Copy from your About page]
+   - Hours: 24/7
+5. Upload photos (logo, van, team)
+6. Google will mail you a verification postcard (takes 5-7 days)
+7. When it arrives, enter the code to verify
+
+RESULT: You'll appear in Google Maps and local search results!
+This is THE MOST IMPORTANT thing for local business SEO.
+
+================================================================================
+🔴 STEP 3: GET YOUR FIRST 5 GOOGLE REVIEWS (Ongoing - Start this week!)
+================================================================================
+
+After each successful ride, send this text to happy customers:
+
+"Hi [Name], glad we could serve you today! If you have a moment, we'd 
+really appreciate a Google review. Just search 'Lifeline Ride Services 
+Louisville' on Google and click 'Write a review'. Thank you!"
+
+Or create a short link: https://g.page/r/[your-google-business-id]/review
+
+RESULT: Reviews are the #1 ranking factor for local search!
+5 reviews = You start showing up in local results
+10+ reviews = You compete with established businesses
+
+================================================================================
+🔴 STEP 4: CREATE FACEBOOK BUSINESS PAGE (10 minutes - Do this TODAY!)
+================================================================================
+
+1. Go to: https://www.facebook.com/pages/create
+2. Choose "Business or Brand"
+3. Fill in:
+   - Page name: Lifeline Ride Services
+   - Category: Transportation Service
+   - Bio: [Copy from your website]
+   - Profile pic: Your logo
+   - Cover photo: Your van or team photo
+4. Add website link: https://lifelinerides.com
+5. Add phone: (502) 627-0672
+6. Add call-to-action button: "Book Now" → link to your contact page
+
+RESULT: Social presence + more backlinks to your site = better SEO
+
+================================================================================
+✅ VERIFICATION CHECKLIST
+================================================================================
+
+□ Google Search Console submitted
+□ Sitemap submitted to Google
+□ Google Business Profile created
+□ Google Business Profile verification postcard requested
+□ Facebook Business Page created
+□ Asked first customer for review
+
+================================================================================
+📊 WHAT TO EXPECT
+================================================================================
+
+Week 1:     Site appears for "lifelinerides.com" searches
+Week 2-4:   Google Business shows in Maps (after verification)
+Month 2:    Appearing for "medical transportation Louisville"
+Month 3+:   Regular organic traffic and leads
+
+================================================================================
+❓ NEED HELP?
+================================================================================
+
+Watch these YouTube videos:
+- "Google Search Console Tutorial for Beginners"
+- "How to Set Up Google Business Profile 2026"
+- "Get More Google Reviews"
+
+================================================================================
+
+That's it! Do these 4 things and your SEO is complete.
+
+Everything else is bonus. Focus on getting customers and asking for reviews!
+
+Good luck! 🚀
+
+================================================================================
